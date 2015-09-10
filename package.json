@@ -1,0 +1,42 @@
+{
+  "name": "fluxible-plugin-material-ui",
+  "version": "1.0.0",
+  "description": "Simple plugin to provide the right context for material-ui",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Vijar/fluxible-plugin-material-ui.git"
+  },
+  "scripts": {
+    "test": "mocha tests/unit/ --recursive --reporter spec",
+    "cover": "istanbul cover --dir artifacts -- ./node_modules/mocha/bin/_mocha tests/unit/ --recursive --reporter spec",
+    "lint": "jshint"
+  },
+  "author": "Rajiv Tirumalareddy <r@jiv.me>",
+  "contributors": [],
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://github.com/Vijar/fluxible-plugin-material-ui/blob/master/LICENSE.md"
+    }
+  ],
+  "dependencies": {
+    "material-ui": "^0.11.0",
+    "react": "^0.13.3",
+    "react-tap-event-plugin": "^0.1.7"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "fluxible": "^0.5.2",
+    "istanbul": "^0.3.19",
+    "jshint": "~2.8.0",
+    "mocha": "^2.3.0"
+  },
+  "keywords": [
+    "yahoo",
+    "flux",
+    "react",
+    "fluxible",
+    "material-ui"
+  ]
+}
