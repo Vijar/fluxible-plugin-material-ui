@@ -15,6 +15,7 @@ describe('muiPlugin', function () {
         app.plug(muiPlugin());
         var context = app.createContext();
         var componentContext = context.getComponentContext();
-        expect(componentContext).to.have.keys(['ThemeManager', 'muiTheme']);
+        expect(componentContext).to.have.property('ThemeManager');
+        expect(componentContext).to.have.property('muiTheme');
     });
 });
